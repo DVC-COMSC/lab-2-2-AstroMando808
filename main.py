@@ -15,7 +15,6 @@ def main():
     overtime_wage = (overtime_rate) * (workhours - regular_hours) 
     total_wage =  regular_wage + overtime_wage
 
-
     print("Regular Charge: ", regular_wage)
     print("Overtime Charge: " , overtime_wage)
     print("Total Wage: ", total_wage)
